@@ -1,0 +1,7 @@
+def tri_fusion(t):
+  n=len(t)
+  if n<2:
+    return t
+  else:
+    m=n//2
+    return fusion(tri_fusion(t[:m]),tri(t[m:]))
