@@ -1,0 +1,6 @@
+def tri_selection(n):
+    N=len(n)
+    for i in range(N-1):
+        j=imin(n,i,N)
+        n(i),n(j) = n(j),n(i)
+    return n
